@@ -1,7 +1,0 @@
-- name: PHP Syntax Checker (Lint)
-  # You may pin to the exact commit or the version.
-  # uses: StephaneBour/actions-php-lint@d65e53fad9afd3bf2360d56590f72d62536471ea
-  uses: StephaneBour/actions-php-lint@8.1
-  with:
-    # Folder to check syntax
-    dir: # optional, default is .
