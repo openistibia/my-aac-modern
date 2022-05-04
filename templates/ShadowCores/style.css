@@ -96,3 +96,122 @@ body {
 .lh-150 {
   line-height: 1.5;
 }
+/* CSS FROM SHADOWCORES */
+body {
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header {
+ background-image: url(images/header.png);
+    margin-bottom: -1px;
+    background-position: 0% 75%;
+    background-repeat: no-repeat;
+    border-left: 1px solid #080808;
+    border-right: 1px solid #080808;
+    height: 225px;
+    z-index: 10;
+    position: relative;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: #1d3d5b;
+  margin: 5px auto;
+  width: 245px;
+  float: left;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-left: 1px solid #080808;
+  border-right: 1px solid #080808;
+  border-bottom: 0.7px solid #080808;
+  margin-left: -21rem;
+  margin-top: -33rem;
+  z-index: 10;
+  border-radius: 2px 2px 2px 2px;
+}
+a {
+  font-style: none;
+}
+/* .sidebar {
+  flex-direction: column;
+  background-color: #1d3d5b;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-left: 1px solid #080808;
+  border-right: 1px solid #080808;
+  border-bottom: 1px solid #080808;
+  position: relative;
+  float:left;
+  margin-left: 0%;
+  margin-top: -25rem;
+  z-index: 10;
+  margin: 5px auto;
+  width: 245px;
+} */
+.table th {
+  background-color: #1d3d5b;
+    color: white;
+	  text-align: left;
+}
+
+.table tr:nth-child(odd) {background-color: #d1d1d1}
+
+
+
+.news-post-date {
+  float: right;
+  text-align: right;
+  position: relative;
+  top: -2px;
+}
+
+.error-404 {
+  margin: 0 auto;
+  text-align: center;
+}
+.error-404 .error-code {
+  bottom: 60%;
+  color: #4686CC;
+  font-size: 96px;
+  line-height: 100px;
+  font-weight: bold;
+}
+.error-404 .error-desc {
+  font-size: 12px;
+  color: #647788;
+}
+.error-404 .m-b-10 {
+  margin-bottom: 10px!important;
+}
+.error-404 .m-b-20 {
+  margin-bottom: 20px!important;
+}
+.error-404 .m-t-20 {
+  margin-top: 20px!important;
+}
+
+.outfitter-container {
+  width: 64px;
+  height: 64px;
+  box-shadow: 1px 1px 1px 1px rgb(51, 41, 41);   
+}
+.table tbody {
+    background-color: #241f1f;
+    color: whitesmoke;
+    opacity: 0.9;
+}
+tbody:hover {
+  box-shadow: 1px 1px 1px 1px rgb(51, 41, 41);
+  background-color: #1a1616;
+  color: whitesmoke;
+  opacity: 1;
+}
