@@ -3,22 +3,17 @@ function news_parse($title, $content, $date, $icon = 0, $author = '', $comments 
 {
 	global $template_path;
 	return '
-	<table class="table" style="clear:both" border=0 cellpadding=0 cellspacing=0 width="100%" >
-		<tr>
-			<th width="15%">' . date("j.n.Y", $date) . '</th>
-			<th>' . stripslashes($title) . '</th>
-			' . (isset($author[0]) ? '
-			<th style="text-align: right" width="30%"><b>Author: </b><i>' . $author . '</i></th>' : '') . '
-		</tr>
-		<tr>
-			<td colspan="3" style="padding-left:10px;padding-right:10px;" >' . (isset($firstLetter) ? $firstLetter : '').$content . '</td>
-		</tr>'
-		. (isset($comments[0]) ? '
-		<tr>
-			<td colspan="3">
-				<div style="text-align: right; margin-right: 10px;"><a href="' . $comments . '">» Comment on this news</a></div>
-			</td>
-		</tr>' : '') .
-	'</table><br/>';
+	<div class="my-3 p-3 bg-white rounded box-shadow">
+      <h6 class="border-bottom border-gray pb-2 mb-0">' . stripslashes($title) . '</h6>
+      <div class="media text-muted pt-3">
+        <img data-src="holder.js/32x32?theme=thumb&bg=007bff&fg=007bff&size=1" alt="" class="mr-2 rounded">
+        <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+          <strong class="d-block text-gray-dark">'. $author .'</strong>
+		  '. $content .'
+        </p>
+          </div>    
+    </div> ';
 }
 ?>
+
+
