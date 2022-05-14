@@ -38,7 +38,7 @@ $config = array(
 
 	// what client version are you using on this OT?
 	// used for the Downloads page and some templates aswell
-	'client' => 1098, // 954 = client 9.54
+	'client' => 1280, // 954 = client 9.54
 
 	'session_prefix' => 'myaac_', // must be unique for every site on your server
 	'friendly_urls' => false, // mod_rewrite is required for this, it makes links looks more elegant to eye, and also are SEO friendly (example: https://my-aac.org/guilds/Testing instead of https://my-aac.org/?subtopic=guilds&name=Testing). Remember to rename .htaccess.dist to .htaccess
@@ -50,8 +50,8 @@ $config = array(
 	'backward_support' => true,
 
 	// head options (html)
-	'meta_description' => 'Tibia is a free massive multiplayer online role playing game (MMORPG).', // description of the site
-	'meta_keywords' => 'free online game, free multiplayer game, ots, open tibia server', // keywords list separated by commas
+	'meta_description' => 'Ankrahmun Global é um servidor desenvolvido para toda a comunidade tibiana, desenvolvemos o melhor servidor para que você possa jogar.', // description of the site
+	'meta_keywords' => 'free online game, free multiplayer game, ots, open tibia server, ankrahmun.com, ankrahmunglobal, ankrahmun global, ankrahmun-global.com,ot ankrahmun, ot, aurera, globa, taleon, safebra global,', // keywords list separated by commas
 	'title_separator' => ' - ',
 
 	// footer
@@ -86,9 +86,9 @@ $config = array(
 	),
 
 	// images
-	'outfit_images_url' => 'https://outfit-images.ots.me/outfit.php', // set to animoutfit.php for animated outfit
-	'item_images_url' => 'https://item-images.ots.me/1092/', // set to images/items if you host your own items in images folder
-
+	'outfit_images_url' => 'https://outfit-images.ots.me/1285/outfit.php', // set to animoutfit.php for animated outfit
+	'item_images_url' => 'https://outfit-images-oracle.ots.me/1285', // set to images/items if you host your own items in images folder
+	
 	// account
 	'account_management' => true, // disable if you're using other method to manage users (fe. tfs account manager)
 	'account_create_auto_login' => false, // auto login after creating account?
