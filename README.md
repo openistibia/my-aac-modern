@@ -1,7 +1,13 @@
 MyAAC is a free and open-source Automatic Account Creator (AAC) written in PHP.
 
 It is a fork of the [Gesior](https://github.com/gesior/Gesior2012) project. It supports only MySQL databases.
-
+## Project Management Helper
+### Underewarrr Changes
+_Check all PRS [HERE](https://github.com/openfordevs/pokemon-javascript-react-game/pulls?q=is%3Apr+is%3Aclosed)_
+- [x] [News](https://github.com/openistibia/my-aac-modern/pull/5)
+- [x] [Bootstrap 4 to 5](https://github.com/openistibia/my-aac-modern/pull/3)
+- [x] [Player creation](https://github.com/openfordevs/pokemon-javascript-react-game/pull/9)
+- [x] [WorkFlow](https://github.com/openistibia/my-aac-modern/pull/7) (NOT YET!)
 ### Requirements
 
 	- PHP 5.6 or later
